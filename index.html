@@ -16,18 +16,70 @@
   <body>
     <header>
       <nav id="menu-container">
-        <a href="index.html" class="menu">Home</a>
-        <a href="register.html" class="menu">Register</a>
-        <a href="#" class="menu">Users</a>
+        <img
+          class="logo"
+          src="img/toppng.com-javascript-html5-and-css-html-css-js-badge-1025x533.png"
+          alt="logo"
+        />
+        <ul class="nav-bar">
+          <!--
+          <li><a href="index.html" class="menu">Home</a></li>-->
+          <li><a href="register.html" class="menu">Register</a></li>
+          <!--
+            <li><a href="users.html" class="menu">Users</a></li>-->
+        </ul>
       </nav>
     </header>
-    <main>
-      <h1>Awesome User Registration System</h1>
-    </main>
+    <div id="alert-error" class="hide">Invalid Credentials, try again!</div>
+    <div class="hero">
+      <div class="hero-info">
+        <h1 class="title">Existing Users</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, dicta
+          nobis! Quaerat inventore aspernatur quos officia amet blanditiis eos
+          dolore pariatur? Quidem officia illo enim quibusdam ut, soluta esse!
+          Veritatis.
+        </p>
+        <form action="Register.html" class="box" method="">
+          <h2>login</h2>
+          <input
+            type="text"
+            name=""
+            placeholder="Enter Email"
+            id="inputEmail"
+          />
+          <input
+            type="password"
+            name=""
+            placeholder="Enter Password"
+            id="inputPassword"
+          />
+        </form>
+        <div>
+          <input
+            type="submit"
+            name=""
+            class="button btn-primary"
+            value="Sign In"
+            id="btnLogin"
+          />
+        </div>
+      </div>
+      <div class="hero-info">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, vero.
+          Enim fugit ad vel obcaecati maxime rem inventore quas laudantium
+          molestiae aut soluta, dolorem cum eum optio odio ipsa atque.
+        </p>
+      </div>
+    </div>
+    <main></main>
     <footer></footer>
 
     <!-- add a login view-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="scripts/register.js"></script>
+    <!--<script src="scripts/register.js"></script>-->
+    <script src="scripts/storeManager.js"></script>
+    <script src="scripts/login.js"></script>
   </body>
 </html>

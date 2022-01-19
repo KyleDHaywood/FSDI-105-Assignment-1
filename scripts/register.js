@@ -103,12 +103,25 @@ function isValid(user) {
 }
 
 /*
+    if (inputEmail == null || inputEmail == "") {
+    text = "User cancelled the prompt.";
+  } else if { inputEmail
+    text = "Hello " + person + "! How are you today?";
+  }
+  
+  
+}
+*/
+/*
 $("#menu-container").click(function () {
   $("#menu-container").hide;
 });
 */
 
+
+
 function init() {
   console.log("Init Function");
+  $("#btnSave").click(registerUser);
 }
 window.onload = init;

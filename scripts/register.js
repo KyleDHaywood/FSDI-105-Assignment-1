@@ -52,6 +52,7 @@ function registerUser() {
     console.log(user);
     saveUser(user);
     clearInput();
+    window.location = "users.html";
   }
 }
 
@@ -117,8 +118,6 @@ $("#menu-container").click(function () {
   $("#menu-container").hide;
 });
 */
-
-
 
 function init() {
   console.log("Init Function");

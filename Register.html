@@ -30,106 +30,110 @@
         --></ul>
       </nav>
     </header>
-    <div class="hero">
-      <div class="hero-info">
-        <h1 class="title">Existing Users</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, dicta
-          nobis! Quaerat inventore aspernatur quos officia amet blanditiis eos
-          dolore pariatur? Quidem officia illo enim quibusdam ut, soluta esse!
-          Veritatis.
-        </p>
+
+    <main>
+      <div class="hero">
+        <div class="hero-info">
+          <h1 class="title">Existing Users</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, dicta
+            nobis! Quaerat inventore aspernatur quos officia amet blanditiis eos
+            dolore pariatur? Quidem officia illo enim quibusdam ut, soluta esse!
+            Veritatis.
+          </p>
+        </div>
+        <div class="hero-info">
+          <h1 class="title">New User</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Distinctio, et. Voluptatem culpa nesciunt non totam esse, voluptate
+            recusandae maiores voluptatibus quis illo nobis fuga odio? Maxime
+            impedit fuga quia obcaecati.
+          </p>
+          <!-- create a form with the folowing fields: email, password, first name, last name, age, address, phone number, payment, color-->
+          <form class="box" id="registrationBox">
+            <div class="container">
+              <div class="control">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="txtEmail"
+                  placeholder="Enter Email"
+                />
+              </div>
+              <div class="control">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="txtPassword"
+                  placeholder="Enter Password"
+                />
+              </div>
+              <div class="control">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="txtFirstName"
+                  placeholder="First Name"
+                />
+              </div>
+              <div class="control">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="txtLastName"
+                  placeholder="Last Name"
+                />
+              </div>
+              <div class="control">
+                <input
+                  type="number"
+                  class="form-control"
+                  id="nbAge"
+                  placeholder="Age"
+                />
+              </div>
+              <div class="control">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="txtAddress"
+                  placeholder="Address"
+                />
+              </div>
+              <div class="control">
+                <input
+                  type="number"
+                  class="form-control"
+                  id="nbPhone"
+                  placeholder="+x (xxx)xxx-xxxx"
+                />
+              </div>
+              <div class="control">
+                <select class="form-control" id="selPayment">
+                  <option>Paypal</option>
+                  <option>Credit Card</option>
+                  <option>Google Pay</option>
+                  <option>Check</option>
+                </select>
+              </div>
+              <div class="control">
+                <label>Color: </label>
+                <input type="color" id="txtColor" />
+              </div>
+              <div>
+                <input
+                  type="submit"
+                  class="button btn-primary"
+                  value="Sign Up"
+                  id="btnSave"
+                />
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
-      <div class="hero-info">
-        <h1 class="title">New User</h1>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio,
-          et. Voluptatem culpa nesciunt non totam esse, voluptate recusandae
-          maiores voluptatibus quis illo nobis fuga odio? Maxime impedit fuga
-          quia obcaecati.
-        </p>
-        <!-- create a form with the folowing fields: email, password, first name, last name, age, address, phone number, payment, color-->
-        <form action="Register.html" class="box" method="">
-          <div class="container">
-            <div class="control">
-              <input
-                type="text"
-                class="form-control"
-                id="txtEmail"
-                placeholder="Enter Email"
-              />
-            </div>
-            <div class="control">
-              <input
-                type="password"
-                class="form-control"
-                id="txtPassword"
-                placeholder="Enter Password"
-              />
-            </div>
-            <div class="control">
-              <input
-                type="text"
-                class="form-control"
-                id="txtFirstName"
-                placeholder="First Name"
-              />
-            </div>
-            <div class="control">
-              <input
-                type="text"
-                class="form-control"
-                id="txtLastName"
-                placeholder="Last Name"
-              />
-            </div>
-            <div class="control">
-              <input
-                type="number"
-                class="form-control"
-                id="nbAge"
-                placeholder="Age"
-              />
-            </div>
-            <div class="control">
-              <input
-                type="text"
-                class="form-control"
-                id="txtAddress"
-                placeholder="Address"
-              />
-            </div>
-            <div class="control">
-              <input
-                type="number"
-                class="form-control"
-                id="nbPhone"
-                placeholder="Phone Number"
-              />
-            </div>
-            <div class="control">
-              <label>Payment: </label>
-              <select class="form-control" id="selPayment">
-                <option>Paypal</option>
-                <option>Credit Card</option>
-                <option>Google Pay</option>
-                <option>Check</option>
-              </select>
-            </div>
-            <div class="control">
-              <label>Color: </label>
-              <input type="color" id="txtColor" />
-            </div>
-            <div>
-              <button class="button btn-primary" id="btnSave">
-                Register New User
-              </button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-    <main></main>
+    </main>
 
     <footer></footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

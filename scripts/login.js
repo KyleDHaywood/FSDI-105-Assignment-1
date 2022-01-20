@@ -22,7 +22,9 @@ function login() {
     }
   }
 }
-
+$(".box").submit(function (e) {
+  e.preventDefault();
+});
 //console.log(displayUserList());
 
 function init() {
